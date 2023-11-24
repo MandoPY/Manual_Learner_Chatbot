@@ -1,3 +1,4 @@
+## !!! I DON'T GIVE ANY PERMISSION TO COPY, MODIFY, MERGE, PUBLISH, DISTRIBUTE, SUBLICENSE, AND/OR SELL COPIES OF THIS CODE WITHOUT MY PRIOR CONSENT !!!
 print()
 print("Carregando bibliotecas......")
 import random
@@ -6,7 +7,7 @@ import ftfy
 import nltk
 from fuzzywuzzy import fuzz
 import os
-
+## !!! I DON'T GIVE ANY PERMISSION TO COPY, MODIFY, MERGE, PUBLISH, DISTRIBUTE, SUBLICENSE, AND/OR SELL COPIES OF THIS CODE WITHOUT MY PRIOR CONSENT !!!
 try:
     nltk.data.find('corpora/words.zip')
 except LookupError:
@@ -18,24 +19,7 @@ print("\n")
 print("Bibliotecas carregadas com sucesso!\n")
 
 conversas_file_path = [
-    'conversas_Artes.txt',
-    'conversas_Astronomia.txt',
-    'conversas_Biologia.txt',
-    'conversas_Chatbot_Duvidas.txt',
-    'conversas_Despedidas.txt',
-    'conversas_Dia_a_Dia.txt',
-    'conversas_Filmes.txt',
-    'conversas_Filosofia.txt',
-    'conversas_Fisica.txt',
-    'conversas_Geografia.txt',
-    'conversas_Geral.txt',
-    'conversas_Historia.txt',
-    'conversas_Livros.txt',
-    'conversas_Matematica.txt',
-    'conversas_Pessoas_Famosas.txt',
-    'conversas_Quimica.txt',
-    'conversas_Saudacoes.txt',
-    'conversas_Tecnologia.txt',
+    #conversas aqui
 ]
 
 MAX_CHARS_PER_LINE = 120
